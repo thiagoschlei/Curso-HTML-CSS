@@ -4,8 +4,22 @@ p {
 }
 
 body{
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: #dddddd;
     font: Arial;
+}
+
+div#interface{
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 10px 10px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 900px;
+    top: 40px;
 }
 
 /*Formatação de Imagens*/
@@ -77,3 +91,4 @@ nav#menu a:hover{
     color:white;
     text-decoration: underline;
 }
+
