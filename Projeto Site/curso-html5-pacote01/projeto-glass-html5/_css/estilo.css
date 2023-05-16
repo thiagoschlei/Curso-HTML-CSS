@@ -86,7 +86,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    right: 0px;
+    left: 480px;
 }
 
 nav#menu li{
@@ -115,3 +115,25 @@ nav#menu a:hover{
     text-decoration: underline;
 }
 
+section#corpo {
+    display: block;
+    width: 480px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+aside#lateral {
+    display: block;
+    width: 380px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
