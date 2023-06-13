@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" type= text/css href="_css/estilo.css"/>
+    <link rel="stylesheet" type= text/css href="_css/form.css"/>
 </head>
 <script language="javascript" src="_javascript/funcoes.js"></script>
 <body>
@@ -31,38 +32,52 @@
 
     </header>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+<section id="corpo-full">
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+            <hgroup>
+                <h3>Fale Conosco > Contato</h3>
+                <h1>Formulário de Contato</h1>
+                <h2>por Thiago Schlei</h2>
+                <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+        </header>
+<form action="">
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+<fieldset id="usuario"><legend>Identificação do Usuário</legend>
+    <p><label for="cNome">Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></label></p>
+    <p><label for="cSenha">Senha: <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"></label></p>
+    <p><label for="cMail">E-mail: <input type="email" name="tMail" id="cMail" size="25" maxlength="40" placeholder="E-mail"></label></p>
+        <fieldset id="sexo"><legend>Sexo</legend>
+            <input type="radio" name="tSexo" id="cMasc">  <label for="cMasc">Masculino</label> <br>
+            <input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label>
+        </fieldset>
+    <p><label for="cNasc">Data de Nascimento: <input type="date" name="tNasc" id="cNasc"></label></p>
+</fieldset>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+<fieldset id="endereco"><legend>Endereço do Usuário</legend>
+    <p><label for="cRua">Logradouro: <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Avenida"></label></p>
+    <p><label for="cNum">Número: <input type="number" name="tNum" id="cNum" min="0" max="99999" placeholder="Número"></label></p>
+    <p><label for="cEstado">Estado: <input type="text" name="tEstado" id="cEstado" size="20" maxlength="20" placeholder="Estado"></label></p>
+    <p><label for="cCidade">Cidade: <input type="text" name="tCidade" id="cCidade" size="20" maxlength="30" placeholder="Cidade"></label></p>
+</fieldset>
 
-Mensagem do Usuário
+<fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
     Grau de Urgência:
     Mensagem:
+</fieldset>
 
-Quero um Google Glass
+<fieldset id=""><legend>Quero um Google Glass</legend>
     Gostaria de adquirir um Google Glass quando disponível
     Cor:
     Quantidade:
     Preço Total: R$
-
+</fieldset>
 
 [BOTÃO ENVIAR]
+</form>
+    </article>
+</section>
 
 <footer id="rodape">
 <p>Copyright &copy; 2023 - by Thiago Schlei
