@@ -110,11 +110,12 @@
     <p><label for="cUrg">Grau de Urgência:</label>
     Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Max</p>
     <p><label for="cMsg">Mensagem:</label>
-    <textarea name="tMsg" id="cMsg" cols="30" rows="10" placeholder="Deixe aqui sua mensagem..."></textarea></p>
+    <textarea name="tMsg" id="cMsg" cols="30" rows="5" placeholder="Deixe aqui sua mensagem..."></textarea></p>
 </fieldset>
 
-<fieldset id=""><legend>Quero um Google Glass</legend>
-    <p><input type="checkbox" name="tPad" id="cPad" checked><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+<fieldset id="pedido"><legend>Quero um Google Glass</legend>
+    <p><input type="checkbox" name="tPad" id="cPad" checked>
+    <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
     <p><label for="cCor">Cor:</label>
     <input type="color" name="tCor" id="cCor"></p>
     <p><label for="cQtd">Quantidade:</label>
@@ -123,7 +124,7 @@
     <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly></p>
 </fieldset>
 
-<input type="image" name="tEnviar" src="_imagens/botao-enviar.png" alt="">
+<input type="image" name="tEnviar" id="botao" src="_imagens/botao-enviar.png" alt="">
 
 </form>
     </article>
